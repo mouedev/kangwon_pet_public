@@ -1,0 +1,64 @@
+{
+  "appName": "강원 Pet",
+  "initializationFailed": "초기화 실패",
+  "retry": "재시도",
+  "exit": "종료",
+  "areaName": "지역",
+  "partName": "분야",
+  "title": "업체명",
+  "address": "주소",
+  "latitude": "latitude",
+  "longitude": "longitude",
+  "tel": "전화번호",
+  "usedTime": "사용시간",
+  "homePage": "홈페이지",
+  "provisionSupply": "비품제공",
+  "content": "소개",
+  "petFacility": "반려동물 시설",
+  "restaurant": "식당",
+  "parkingLot": "주차장 수용",
+  "mainFacility": "주요시설",
+  "usedCost": "이용요금",
+  "policyCautions": "애견정책 및 주의사항",
+  "emergencyResponse": "응급상황 대처 여부",
+  "memo": "기타",
+  "bathFlag": "목욕시설 (Y/N)",
+  "provisionFlag": "비품제공 (Y/N)",
+  "petFlag": "펫 동반식당 (Y/N)",
+  "petWeight": "제한 몸무게 (kg)",
+  "emergencyFlag": "응급 수칙 (Y/N)",
+  "entranceFlag": "입장료 (Y/N)",
+  "parkingFlag": "주차장 (Y/N)",
+  "inOutFlag": "실내외 구분 (IN/OUT)",
+  "loading": "불러오는중...",
+  "thisIsLastItem": "마지막 항목입니다.",
+  "failedToLoadContentList": "컨텐트 리스트를 불러오는데 실패하였습니다. 네트워크 상태를 확인해주세요.",
+  "failedToLoadContentDetail": "{title} 정보를 불러오는데 실패하였습니다. 네트워크 상태를 확인해주세요.",
+  "listType": "{listTypeName, select, part{분야} local{지역} other{other}}",
+    "@listType": {
+      "description": "List type",
+      "placeholders": {
+        "listTypeName": {
+          "type": "String"
+        }
+      }
+    },
+  "localCode": "{localCodeName, select, chuncheon{춘천시} wonju{원주시}  gangleung{강릉시} donghae{동해시} taebaek{태백시} sokcho{속초시} samcheok{삼척시} hongcheon{홍천군} hwengsung{횡성군} youngwol{영월군} pyeongchang{평창군} jungsun{정선군} cheolwon{철원군} hwacheon{화천군} yangku{양구군} inje{인제군} gosung{고성군} yangyang{양양군} other{other}}",
+      "@localCode": {
+        "description": "local code",
+        "placeholders": {
+          "localCodeName": {
+            "type": "String"
+          }
+        }
+      },
+  "partCode": "{partCodeName, select, touristAttraction{관광지} accommodation{숙박} beverage{식음료} experience{체험} veterinaryClinic{동물병원} other{other}}",
+   "@partCode": {
+      "description": "part code",
+      "placeholders": {
+         "partCodeName": {
+           "type": "String"
+          }
+        }
+  }
+}

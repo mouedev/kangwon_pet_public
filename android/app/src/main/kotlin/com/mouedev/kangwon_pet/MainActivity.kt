@@ -1,0 +1,6 @@
+package com.mouedev.kangwon_pet
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

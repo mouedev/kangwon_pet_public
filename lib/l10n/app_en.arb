@@ -1,0 +1,64 @@
+{
+  "appName": "Kangwon Pet",
+  "initializationFailed": "Initialization failed",
+  "retry": "Retry",
+  "exit": "Exit",
+  "areaName": "area name",
+  "partName": "part name",
+  "title": "title",
+  "address": "address",
+  "latitude": "latitude",
+  "longitude": "longitude",
+  "tel": "tel",
+  "usedTime": "usage time",
+  "homePage": "homepage",
+  "provisionSupply": "provision supply",
+  "content": "introduction",
+  "petFacility": "pet facility",
+  "restaurant": "restaurant",
+  "parkingLot": "parking lot",
+  "mainFacility": "main facility",
+  "usedCost": "usage fee",
+  "policyCautions": "policy cautions",
+  "emergencyResponse": "emergency response",
+  "memo": "etc",
+  "bathFlag": "bath (Y/N)",
+  "provisionFlag": "supplies provided  (Y/N)",
+  "petFlag": "pet friendly restaurant (Y/N)",
+  "petWeight": "pet weight limit(kg)",
+  "emergencyFlag": "emergency rules (Y/N)",
+  "entranceFlag": "entrance fee (Y/N)",
+  "parkingFlag": "parking (Y/N)",
+  "inOutFlag": "Indoor/outdoor classification (IN/OUT)",
+  "loading": "loading...",
+  "thisIsLastItem": "This is the last item.",
+  "failedToLoadContentList": "Failed to load the content list. Please check the network status.",
+  "failedToLoadContentDetail": "Failed to load {title} information. Please check the network status.",
+  "listType": "{listTypeName, select, part{part} local{local} other{other}}",
+  "@listType": {
+    "description": "List type",
+    "placeholders": {
+      "listTypeName": {
+        "type": "String"
+      }
+    }
+  },
+  "localCode": "{localCodeName, select, chuncheon{chuncheon} wonju{wonju} gangleung{gangleung} donghae{donghae} taebaek{taebaek} sokcho{sokcho} samcheok{samcheok} hongcheon{hongcheon} hwengsung{hwengsung} youngwol{youngwol} pyeongchang{pyeongchang} jungsun{jungsun} cheolwon{cheolwon} hwacheon{hwacheon} yangku{yangku} inje{inje} gosung{gosung} yangyang{yangyang} other{other}}",
+  "@localCode": {
+    "description": "local code",
+    "placeholders": {
+      "localCodeName": {
+        "type": "String"
+      }
+    }
+  },
+  "partCode": "{partCodeName, select, touristAttraction{touristAttraction} accommodation{accommodation} beverage{beverage} experience{experience} veterinaryClinic{veterinaryClinic} other{other}}",
+  "@partCode": {
+    "description": "part code",
+    "placeholders": {
+      "partCodeName": {
+        "type": "String"
+      }
+    }
+  }
+}
