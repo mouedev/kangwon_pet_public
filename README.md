@@ -8,4 +8,4 @@ flutter로 만든 모바일 App((Android,ios)) 강원 Pet source입니다.
 
 애플 App store : https://apps.apple.com/kr/app/%EA%B0%95%EC%9B%90-pet/id6475640536
 
-빌드를 위해선 KeySotre와 구굴맵 key가 필요합니다.
+빌드를 위해선 KeySotre와 구글맵 key가 필요합니다.
