@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:kangwon_pet/provider.dart';
 import 'package:kangwon_pet/widget/home_screen.dart';
@@ -10,6 +12,7 @@ import 'globals.dart';
 Future<void> main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  HttpOverrides.global = NoCheckCertificateHttpOverrides();
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (c) => MainProvider()),
@@ -37,3 +40,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class NoCheckCertificateHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(SecurityContext? context) {
+    return super.createHttpClient(context)
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
+  }
+}
+
